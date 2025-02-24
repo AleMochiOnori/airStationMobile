@@ -55,6 +55,47 @@ Segui questi passaggi per installare e avviare l'applicazione:
    Questo comando avvierà l'applicazione.
 
 
+## Configurare il Backend (Python + Flask)
 
+### Crea un ambiente virtuale (consigliato):
+```bash
+python -m venv venv
+```
 
+### Attiva l'ambiente virtuale:
+
+- **Su Windows:**
+  ```bash
+  venv\Scripts\activate
+  ```
+- **Su macOS/Linux:**
+  ```bash
+  source venv/bin/activate
+  ```
+
+### Installa le dipendenze Python:
+```bash
+pip install -r requirements.txt
+```
+
+### Configura il database PostgreSQL:
+
+1. Crea un database chiamato `Voli` su PostgreSQL.
+2. Modifica il file di configurazione del backend (es. `config.py` o `.env`) per inserire le credenziali del database:
+   ```plaintext
+   DB_HOST=localhost
+   DB_NAME=Voli
+   DB_USER=tuo_username
+   DB_PASSWORD=tuo_password
+   DB_PORT=5432
+   ```
+
+### Avvia il backend Flask:
+```bash
+python app.py
+```
+
+Il backend sarà disponibile all'indirizzo: [http://localhost:8080](http://localhost:8080).
+
+   Questo comando avvierà l'applicazione.
 
