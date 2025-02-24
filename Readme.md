@@ -19,68 +19,42 @@ AirStation Mobile è un'applicazione mobile sviluppata con **React Native** e **
 
 ## Installazione e Avvio del Progetto
 
-### 1. Clona il repository
-```sh
-git clone https://github.com/tuo-username/airstation-mobile.git
-cd airstation-mobile
-```
 
-### 2. Installazione delle dipendenze
-Assicurati di avere **Node.js** e **Expo** installati:
-```sh
-npm install -g expo-cli
-npm install
-```
+## Prerequisiti
 
-Se stai usando **yarn**:
-```sh
-yarn install
-```
+Prima di installare l'applicazione, assicurati di avere i seguenti strumenti installati sul tuo sistema:
 
-### 3. Avvio del backend
-Vai nella cartella **backendPython** e avvia il server Flask:
-```sh
-cd backendPython
-pip install -r requirements.txt
-python server.py
-```
+- **Node.js e npm**: Scaricabili da [https://nodejs.org/](https://nodejs.org/)
+- **Git**: Disponibile su [https://git-scm.com/](https://git-scm.com/)
 
-### 4. Avvio dell'app mobile
-Esegui Expo per testare l'app su un dispositivo o emulatore:
-```sh
-npm start
-```
-Oppure con **yarn**:
-```sh
-yarn start
-```
+## Installazione
 
-### 5. Avvio su Web
-Esegui Expo per testare l'app su web:
-```sh
-npm run web
-```
-Oppure con **yarn**:
-```sh
-yarn run web
-```
-Scansiona il codice QR con l'app **Expo Go** (disponibile su iOS/Android) oppure esegui su un emulatore.
+Segui questi passaggi per installare e avviare l'applicazione:
 
-## Build dell'Applicazione
-Se vuoi creare un'APK o un'app iOS:
+1. **Clona il repository:**
+   ```bash
+   git clone https://github.com/AleMochiOnori/airStationMobile.git
+   ```
+   Questo creerà una cartella `airStationMobile` con il codice sorgente.
 
-### Android
-```sh
-expo build:android
-```
+2. **Accedi alla directory del progetto:**
+   ```bash
+   cd airStationMobile
+   ```
 
-### iOS (Mac richiesto)
-```sh
-expo build:ios
-```
+3. **Installa le dipendenze:**
+   ```bash
+   npm install
+   ```
+   Questo comando installerà tutte le dipendenze necessarie elencate nel `package.json`.
 
-Per le build con **EAS Build**:
-```sh
-eas build -p android --profile production
-```
+4. **Avvia l'applicazione:**
+   ```bash
+   npm start
+   ```
+   Questo comando avvierà l'applicazione.
+
+
+
+
 
