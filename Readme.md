@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ### Avvia il backend Flask:
 ```bash
-python3 app.py
+python3 server.py
 ```
 
 Il backend sarà disponibile all'indirizzo: [http://localhost:8080](http://localhost:8080).
